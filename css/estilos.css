@@ -1,0 +1,116 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-family: 'Lato', sans-serif;
+}
+
+.lateral{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 100;
+	padding: 1em;
+	width: 350px;
+	background-color: #8B0000;
+}
+
+
+/*perfil */
+
+.perfil_circulo{
+	border-radius: 50%;
+    overflow: hidden;
+   /*margin: 0; */
+	width: 200px;
+	height: 200px;
+}
+
+.perfil_foto{
+	width: 100%;
+}
+
+
+.perfil_nombres{
+	color: #ffff;
+	font-size: 20px;
+}
+
+.perfil_nombres, .perfil_circulo{
+	display: inline-block;
+	vertical-align: middle;
+}
+.subperfil{
+  	font-size:15px;
+	vertical-align: middle;
+    margin-top:-1em;
+}
+
+.informacion{
+	color: #3e0c0c;
+	position: absolute;;
+	bottom: 0em;
+}
+
+.informacion_titulo{
+	font-size: 19px;
+}
+
+
+/*Habilidades*/
+.habilidades{
+	padding: 0;
+}
+.habilidad{
+ background-color: #b21111;
+ color: #3a0b0b;
+ font-size: 15px;
+ display: inline-block;
+ padding: .7em;
+/*text-transform: uppercase;*/
+
+}
+
+
+
+/*Proyectos en la parte de seccion en el body     */
+.proyectos{
+
+	margin-left: 350px;
+	padding: 1em;
+	display: table;
+
+}
+
+.proyecto{
+	display: table-cell;
+	padding: 1em;
+	width: 50%;
+
+}
+
+.proyecto_imagen{
+	width: 100%;
+}
+
+.proyecto_titulo{
+	color: black;
+	font-size: 18px;
+}
+
+.habilidad--proyecto{
+ background-color: #2f0101;
+ color: darkred;
+ font-size: 15px;
+ display: inline-block;
+ padding: .7em;
+/*text-transform: uppercase;*/
+
+}
+
+.proyecto_descripcion{
+
+color: #b63333;
+
+}
